@@ -12,7 +12,8 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
-    "build": "vite build && typedoc",
+    "version:build": "npm version patch",
+    "build": "vite build",
     "docs:build": "typedoc",
     "test": "vitest",
     "coverage": "vitest run --coverage"
