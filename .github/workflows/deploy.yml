@@ -25,12 +25,6 @@ jobs:
 
       - name: Install
         run: npm install # 安装依赖
-
-      - name: Version # 版本管理
-        run: |
-          git config --global user.email "737064439@qq.com"
-          git config --global user.name "youfanrong"
-          npm run version:build
         
         # npm version minor
         # npm version major
