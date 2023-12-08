@@ -1,5 +1,5 @@
 {
-  "out": "docs",
+  "out": "dist/docs",
   "entryPoints": ["tool/**/*.ts"],
   "exclude": ["**/index.test.ts", "**/index.ts"]
 }

@@ -13,6 +13,7 @@
   },
   "scripts": {
     "build": "vite build && typedoc",
+    "docs:build": "typedoc",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
