@@ -1,0 +1,25 @@
+{
+  "name": "nronjs-tool",
+  "version": "0.0.5",
+  "type": "module",
+  "files": [
+    "dist/*"
+  ],
+  "main": "dist/nronjs-tool.umd.js",
+  "module": "dist/nronjs-tool.es.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "build": "vite build && typedoc",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vite-plugin-dts": "^3.6.3",
+    "vitest": "^0.34.6"
+  }
+}
