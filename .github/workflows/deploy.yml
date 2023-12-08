@@ -25,10 +25,14 @@ jobs:
 
       - name: Install
         run: npm install # 安装依赖
-
+          
+        # npm version minor
+        # npm version major
       - name: Build
-        run: npm run build # 打包
-
+        run: |
+          npm version patch
+          npm run build # 打包
+          
       - name: Docs
         run: npm run docs:build # 打包文档
 
