@@ -26,6 +26,7 @@ jobs:
       - name: Install
         run: npm install # 安装依赖
         
+        # npm version patch
         # npm version minor
         # npm version major
       - name: Build

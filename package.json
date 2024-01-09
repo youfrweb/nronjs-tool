@@ -12,18 +12,21 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
-    "build": "npm version patch && vite build",
+    "build": "vite build",
     "docs:build": "typedoc",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
   "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
     "vite-plugin-dts": "^3.6.3",
     "vitest": "^0.34.6"
   },
   "dependencies": {
+    "dayjs": "^1.11.10",
+    "js-cookie": "^3.0.5",
     "npm-version-bump": "^1.0.0",
     "typedoc": "^0.25.4"
   }
