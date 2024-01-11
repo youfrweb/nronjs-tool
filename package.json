@@ -2,6 +2,11 @@
   "name": "nronjs-tool",
   "version": "1.0.7",
   "type": "module",
+  "homepage": "https://youfrweb.github.io/nronjs-tool/index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youfrweb/nronjs-tool.git"
+  },
   "files": [
     "dist/*"
   ],
